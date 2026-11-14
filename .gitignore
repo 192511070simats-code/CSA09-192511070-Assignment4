@@ -4,3 +4,5 @@
 # Ignore common IDE files
 .vscode/
 .idea/
+# Ignore Task 6 compiled output
+Task06/out/
