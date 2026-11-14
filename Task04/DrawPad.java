@@ -26,7 +26,7 @@ public class DrawPad extends Frame {
 
             // TODO 1: Handle mouse clicks correctly
             @Override
-            public void mouseclicked(MouseEvent e) {
+            public void mouseClicked(MouseEvent e) {
                 points.add(e.getPoint());
 
                 status.setText("Clicks: " + points.size());
